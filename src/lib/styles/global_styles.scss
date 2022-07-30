@@ -1,0 +1,30 @@
+* {
+  list-style-type: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+ 
+body {
+  background: #eee;
+  color: #333;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.sveltekit-body {
+  text-align:center;
+  display:grid;
+  grid-template-rows: auto 1fr auto;
+  min-height:100vh;
+}
+
+main {
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 40rem;
+}

@@ -12,7 +12,8 @@
 
 <script>
 	import Header from '$lib/components/Header.svelte';
-	import '$lib/styles/style.scss';
+	import Footer from '$lib/components/Footer.svelte';
+	import '$lib/styles/global_styles.scss';
 	import { fade } from 'svelte/transition';
 
 	export let currentRoute;
@@ -20,10 +21,10 @@
 
 <Header />
 
-<header>Hi, I'm a header</header>
 {#key currentRoute}
 	<main in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }}>
 		<slot />
 	</main>
 {/key}
-<footer>footer</footer>
+
+<Footer />
