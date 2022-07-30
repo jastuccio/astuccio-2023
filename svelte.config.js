@@ -1,7 +1,9 @@
-import adapter from '@sveltejs/adapter-static';
+// import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-netlify';
 import sveltePreprocess from 'svelte-preprocess'
 import { mdsvex } from 'mdsvex'
 import autoprefixer from 'autoprefixer';
+
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {

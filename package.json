@@ -12,6 +12,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-netlify": "1.0.0-next.71",
 		"@sveltejs/adapter-static": "1.0.0-next.38",
 		"@sveltejs/kit": "next",
 		"autoprefixer": "^10.4.8",
@@ -26,5 +27,8 @@
 		"svelte-preprocess": "^4.10.7",
 		"vite": "^3.0.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"postcss": ">=8.1.0 <9.0.0"
+	}
 }
