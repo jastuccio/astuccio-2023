@@ -23,7 +23,8 @@ const config = {
 		mdsvex({
 			extensions: ['.md'],
 			layout: {
-				blog: 'src/routes/blog/_post.svelte'
+				// blog: 'src/routes/blog/_post.svelte'
+				// blog: '_post.svelte'
 			}
 		})
 	],
