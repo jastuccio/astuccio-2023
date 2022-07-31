@@ -22,4 +22,4 @@ This blog contains a lot of gathered information that helps me write code. Much 
 - [FreeCodeCamp](https://www.freecodecamp.org/)
 - various other blogs, YouTube channels, and podcasts
 
-Thanks to Leo Babauta author of [Zen Habits](https://zenhabits.net/) for inspiring me to uncopyright!t development has come through reading/watching/listening to:
+Thanks to Leo Babauta author of [Zen Habits](https://zenhabits.net/) for inspiring me to uncopyright!

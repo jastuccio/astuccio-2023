@@ -1,8 +1,23 @@
+<script>
+	import { browser } from '$app/env';
+
+if (browser) {
+	let isScrollingup = false;
+
+	window.onscroll = function (e) {
+		isScrollingup = this.oldScroll > this.scrollY;
+		this.oldScroll = this.scrollY;
+		console.log(isScrollingup)
+	}
+};
+</script>
+
 <header>
-	<a href="/">Home</a>
+	<a href="/" class="title-font">Joe Astuccio</a>
 	<nav>
 		<ul>
 			<li><a href="/blog">Blog</a></li>
+			<li><a href="/blog">Portfolio</a></li>
 			<li><a href="/about">About</a></li>
 			<li><a href="/contact">Contact</a></li>
 		</ul>
@@ -12,20 +27,16 @@
 <style>
 	header {
 		padding: 1rem;
-		background: lightskyblue;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
+		background: var(--white);
+		display: grid;
+		grid-area: header;
+		/* flex-wrap: wrap;
+		justify-content: space-between; */
 	}
 
 	ul {
 		margin: 0;
-		list-style-type: none;
 		display: flex;
 		gap: 1rem;
-	}
-	a {
-		text-decoration: none;
-		color: inherit;
 	}
 </style>
