@@ -1,7 +1,7 @@
 ---
 title: "Building this site"
 date: "07-31-2022"
-categories: 
+categories:
   - "tech"
   - "sveltekit"
 ---
