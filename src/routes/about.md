@@ -4,7 +4,7 @@
 
 ## Now
 
-* Learning more Salesforce Commerce Cloud using [Trailhead](trailhead.salesforce.com)
+* Learning more Salesforce Commerce Cloud using [Trailhead](https://trailhead.salesforce.com)
 * Checking out TypeScript
 * Father to a basketball crazed ~~middle~~ High Schooler 🏀 ❤️ 😁
 
